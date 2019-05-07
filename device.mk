@@ -15,13 +15,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-carbon
 
-# A/B
-AB_OTA_PARTITIONS += \
-    odm \
-    product \
-    system_ext \
-    vbmeta_system
-
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_pahu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_pahu.xml \

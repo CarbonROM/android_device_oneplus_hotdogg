@@ -11,6 +11,13 @@ DEVICE_PATH := device/oneplus/hotdogg
 # Assert
 TARGET_OTA_ASSERT_DEVICE := OnePlus7TProNR
 
+# A/B
+AB_OTA_PARTITIONS += \
+    odm \
+    product \
+    system_ext \
+    vbmeta_system
+
 # Display
 TARGET_SCREEN_DENSITY := 560
 
