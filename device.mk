@@ -7,7 +7,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, device/oneplus/sm8150-common/common.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/oneplus/hotdog/hotdog-vendor.mk)
+$(call inherit-product, vendor/oneplus/hotdogg/hotdogg-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -41,6 +41,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
+
+# Properties
+include $(LOCAL_PATH)/vendor_prop.mk
 
 # Vibrator
 PRODUCT_PACKAGES += \

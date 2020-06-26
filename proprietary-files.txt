@@ -2,16 +2,6 @@
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
-vendor/etc/acdbdata/MTP/EU/acdb_version
-vendor/etc/acdbdata/MTP/EU/MTP_Bluetooth_cal.acdb
-vendor/etc/acdbdata/MTP/EU/MTP_Codec_cal.acdb
-vendor/etc/acdbdata/MTP/EU/MTP_General_cal.acdb
-vendor/etc/acdbdata/MTP/EU/MTP_Global_cal.acdb
-vendor/etc/acdbdata/MTP/EU/MTP_Handset_cal.acdb
-vendor/etc/acdbdata/MTP/EU/MTP_Hdmi_cal.acdb
-vendor/etc/acdbdata/MTP/EU/MTP_Headset_cal.acdb
-vendor/etc/acdbdata/MTP/EU/MTP_Speaker_cal.acdb
-vendor/etc/acdbdata/MTP/EU/MTP_workspaceFile.qwsp
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_Codec_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
@@ -60,6 +50,18 @@ vendor/lib64/hw/goodix.fod.msmnile.so
 vendor/lib64/fp_hal_extension.so
 vendor/lib64/libgf_ud_hal.so
 vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
+
+# Qualcomm MDM Interface
+vendor/bin/ks
+vendor/bin/mdm_helper
+vendor/bin/mdm_helper_proxy
+vendor/bin/oemnvbkdaemon
+vendor/bin/init.mdm.sh
+vendor/lib/libmdmdetect.so
+vendor/lib/liboemnvbk_img_helper.so
+vendor/lib64/libmdmdetect.so
+vendor/lib64/liboemnvbk_img_helper.so
+vendor/lib64/libmdmimgload.so
 
 # Sensors
 vendor/etc/sensors/config/ak991x_polling_0.json
