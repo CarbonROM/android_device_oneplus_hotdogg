@@ -1,0 +1,2 @@
+# Allow to read properties
+allow untrusted_app persist_camera_prop:file { read };
