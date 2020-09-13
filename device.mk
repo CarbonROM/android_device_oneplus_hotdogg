@@ -47,7 +47,7 @@ include $(LOCAL_PATH)/vendor_prop.mk
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.2-service.oneplus_msmnile
+    vendor.qti.hardware.vibrator@1.2-service
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
