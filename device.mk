@@ -19,6 +19,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 AB_OTA_PARTITIONS += \
     odm \
     product \
+    system_ext \
     vbmeta_system
 
 # Audio
@@ -49,7 +50,7 @@ include $(LOCAL_PATH)/vendor_prop.mk
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.2-service.oneplus_msmnile
-    
+
 # OPFeature
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/odm_feature_list:$(TARGET_COPY_OUT_ODM)/etc/odm_feature_list
